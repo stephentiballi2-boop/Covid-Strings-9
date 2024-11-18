@@ -44,50 +44,54 @@ matchup = document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
 return matchup;
+if (event.target.classlist.contains(team)) 
+return matchup
+else:
+add matchup
 createround =covid strings9 first round
- round =document.createelement(div);
-  round.classlist.add(round);
-  for (let i = zero; i < teams.length; i += Two) {
-  round.AppendChild(CreateMatchup(Teams[I], Teams[I + ONE]))
-   return Round;
-    Bracket.AppendChild(CreateRound(Teams));
-    Matchup.InnerHTML = <Div Class=Team>${Team1}</Div><Div Class=Team>${Team2}</Div>;
-        Import Java Util.Scanner
-Import Java.Util
-Questions[]Questions={
-Collections.Shuffle(Arrays.Aslist(Questions)
-NEW QUESTION1
-NEWQUESTION2
-NEWQUESTION3
-NEWUQESTION4
-NEWQUESTION5
-NEWQUESTION6
-NEWQUESTION7
-NEWQUESTION8
-NEWQUESTION9
-NEWQUESTION10
-NEWQUESTION11
-NEWQUESTION12
-NEWQUESTION13
-NEWQUESTION14
-Team.AddEventListener(Click, () => {
-            Team.ClassList.Toggle(Selected)
-            AdvancingTeams=Teams.Slice(Zero,CurrentTeams/Two)
-            Let Result= DeclareWinner(Team1 Score, Team2 Score)
-            IF Yellow Score>=FOURTY:
-            CONSOLE.LOG(YELLOW MOXIE WINS)
-            ELSE:
-            CONSOLE.LOG(BURGUNDY REBUILDERS WIN)
-            IF TURQUOISE SCORE> FOURTY:
-            CONSOLE.LOG(TURQUOISE WAVES WIN)
-            ELSE:
-            CONSOLE.LOG(MAGENTA MAGNETIZERS WIN)
-            IF WHITE SCORE>= FOURTY:
-            CONSOLE.LOG(WHITE TRANSIT ANGELS WIN)
-            ELSE:
-            CONSOLE.LOG(BLACK NIGHT RIDERS WIN)
-            IF SCORE PURPLE >FOURTY:
-            CONSOLE.LOG(PURPLE BRAVE HEARTS WIN)
-            ELSE:
-            CONSOLE.LOG(VIOLET RELIVERS WIN)
-            Return Filename
+round =document.createelement(div);
+round.classlist.add(round);
+ for (let i = zero; i < teams.length; i += two) {
+ round.appendchild(creatematchup(teams[i], teams[i + one]))
+  return round;
+   bracket.appendchild(createround(teams));
+   matchup.innerHTML = <div class=team>${team1}</div><div class=team>${team2}</div>;
+  java util.scanner
+java util
+questions[]questions={
+collections.shuffle(arrays.aslist(questions)
+question1
+question2
+question3
+question4
+question5
+question6
+question7
+question8
+question9
+question10
+question11
+question12
+question13
+question14
+team.addeventlistener(click, () => {
+team.classlist.toggle
+advancingTeams=slice(currentteams)
+result=declarewinner(team1 score, team2 score)
+if yellow score>=forty:
+console.log(yellow moxie wins)
+else:
+console.log(burgundy rebuilders win)
+if turquoise score>=forty:
+ console.log(turquoise waves win)
+  else:
+ console.log(magneta magnetizers win)
+ if white score>=forty:
+ console.log(white transit angels win)
+ else:
+console.log(black night riders win)
+if purple score >=forty:
+console.log(purple brave hearts win)
+else:
+console.log(violet relivers win)
+return filename
