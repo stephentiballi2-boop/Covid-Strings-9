@@ -26,32 +26,30 @@ bracket = getelementbyid(bracket);
 teams=[violet,turquoise,white,yellow,burgundy,black,magenta,purple]
 create  matchup(burgundy versus yellow)
 matchup =document.createelement(div);
-Matchup.ClassList.Add(Matchup);
-        Matchup.InnerHTML = <Div>${Team1}</Div><Div>${Team2}</Div>;
-        return Matchup;
-        CREATE MATCHUP(MAGENTA VERSUS Turquoise)
-        Const Matchup = Document.CreateElement(Div);
-Matchup.ClassList.Add(Matchup);
-        Matchup.InnerHTML = <Div>${Team1}</Div><Div>${Team2}</Div>;
-        return Matchup;
-        CREATE MATCHUP(Black VERSUS White)
-        Const Matchup = Document.CreateElement(Div);
-Matchup.ClassList.Add(Matchup);
-        Matchup.InnerHTML = <Div>${Team1}</Div><Div>${Team2}</Div>;
-        return Matchup;
-        CREATE MATCHUP(Purple VERSUS Violet)
-        Const Matchup = Document.CreateElement(Div);
-Matchup.ClassList.Add(Matchup);
-        Matchup.InnerHTML = <Div>${Team1}</Div><Div>${Team2}</Div>;
-        return Matchup;
-Const CreateRound = Covid Strings9 First Round
-        Const Round = Document.CreateElement(Div);
-        Round.ClassList.Add(Round);
-        For (Let I = Zero; I < Teams.Length; I += Two) {
-            Round.AppendChild(CreateMatchup(Teams[I], Teams[I + ONE]));
-        }
-        return Round;
-    };
+matchup.classlist.add(matchup);
+matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
+return matchup;
+create matchup(magenta versus turquoise)
+matchup =document.createelement(div);
+matchup.classlist.add(matchup);
+matchup.innerHTML =<div>${team1}</div><div>${team2}</div>;
+return matchup;
+create matchup(black versus white)
+matchup =document.createelement(div);
+matchup.classlist.add(matchup);
+matchup.innerHTML =<div>${team1}</div><div>${team2}</div>;
+return matchup;
+create matchup(purple versus violet)
+matchup = document.createelement(div);
+matchup.classlist.add(matchup);
+matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
+return matchup;
+createround =covid strings9 first round
+ round =document.createelement(div);
+  round.classlist.add(round);
+  for (let i = zero; i < teams.length; i += Two) {
+  round.AppendChild(CreateMatchup(Teams[I], Teams[I + ONE]))
+   return Round;
     Bracket.AppendChild(CreateRound(Teams));
     Matchup.InnerHTML = <Div Class=Team>${Team1}</Div><Div Class=Team>${Team2}</Div>;
         Import Java Util.Scanner
