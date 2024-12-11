@@ -4,7 +4,7 @@ html
 head
 utfeight
 viewport  content=width=device-width, initial-scale=one>
- title covid strings nine bracket 
+ title covid strings nine  first round bracket 
  style
 head
 body
