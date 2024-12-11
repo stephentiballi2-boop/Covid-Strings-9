@@ -2,6 +2,9 @@ doc.type.html
 script
 html
 head
+utf8
+viewport content=width=device-width, initial-scale=one
+title covidstrings 9 championship bracket
 filename=covid strings nine championship.js
 championship game=(highest and lowest remaining seeds ) 
 team low seed = lowest remaining seed
