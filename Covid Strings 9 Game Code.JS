@@ -40,8 +40,8 @@ if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel, borderlayout.south)
 public static void main(string [] args)
-jframe f = new covid strings nine()
-f.set title(covid strings nine)
+jframe f = new covid strings 9()
+f.set title(covid strings 9)
 f.set default closeoperation(jframe.exit_on_close);
 f.setsize
 f.set visible(true);
