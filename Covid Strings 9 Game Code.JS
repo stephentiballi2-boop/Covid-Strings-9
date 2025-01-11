@@ -19,7 +19,7 @@ add (panel,center )
 jpanel button panel=
 new j panel (flowlayout.center)
 buttonpanel.add(randombutton);
-random.button add actionlistener(new action listener()
+random.button add actionlistener(new action listener)
 override 
 public action performed(actionevent e)
 random r= newrandom();
@@ -39,7 +39,7 @@ color m=jcolorchooser.showdialog(funwithgraphics.this,))
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel, borderlayout.south)
-public static void main(string [] args)
+public static main(string [] args)
 jframe f = new covid strings 9()
 f.set title(covid strings 9)
 f.set default closeoperation(jframe.exit_on_close);
