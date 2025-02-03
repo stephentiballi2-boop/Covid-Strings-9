@@ -4,14 +4,18 @@ html
 head
 utfeight
 viewport  content=width=device-width, initial-scale=one>
- title covid strings nine  first round bracket 
- style
+title covid strings9  first round bracket 
+div id bracket class bracket div
+script src bracket .js
+link rel= stylesheet href=css
 head
 body
 bracket 
 matchup
 solid zero;
-filename= covid strings nine first round .js
+padding 
+text align center 
+filename= covid strings9 first round .js
 first round=(highest overall seed ,second highest seed third highest seed first middle seed, second middle seed,  third lowest seed ,second lowest seed,lowest overall seed)
 highest overall seed = 1 seed
 second highest seed=2 seed
