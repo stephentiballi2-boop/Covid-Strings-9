@@ -46,7 +46,7 @@ return division
 else:
 remain
 user in select covid strings calculator
-covid strings team thought box=feature for teams to discuss what category to take and what each poerson thinks the correct answer to a question is 
+covid strings team thought box=feature for teams to discuss what category to take and what each person thinks the correct answer to a question is 
 prompt covid strings team thought box 
 if user prompt covid strings team thought box ==correct answer
 return answer 
