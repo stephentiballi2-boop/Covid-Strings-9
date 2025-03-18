@@ -185,7 +185,7 @@ template asset resource
 entity template instantiate
 entity script foobar=this entity
 entity reparnet (this.entity)
-s=pc.dreate script(s);
+s=pc.create script(s);
 s.attributes.add(foobar,{type:entity});
 s.prototype.initialize=function() 
 console.log(this.foobar.name);
