@@ -11,7 +11,7 @@ header.textcontent=’covid strings9’
 document appendchild(header)
 <header.html>
 heading variables 
-The heading numbers that determine where each heading and subheading go 
+the heading numbers that determine where each heading and subheading go 
 heading1=#background overview
 heading2=#functions
 heading3=background code 
