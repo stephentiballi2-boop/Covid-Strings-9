@@ -1,41 +1,65 @@
 doc.type. html
+html lang en 
 script
-filename=covid strings nine .JS
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’covid strings9’ 
+document appendchild(header)
+<header.html>
+heading variables 
+The heading numbers that determine where each heading and subheading go 
+heading1=#background overview
+heading2=#functions
+heading3=background code 
+<header.html>
+background overview
+background for covid strings9
+filename=covid strings9.js
 java.awt graphics
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
 src=document getelementbyid(header)
 src.appendchild(this.img) 
 <div id=header></div>
-audio=new audio(audio_file mp3))
+audio=new audio(audio_file mp3)
 audio.play 
-jbutton random button
-new jbutton (set random color)
-private final j button option button=
-new j button (change color)
-public fun with graphics(){
-jpanel color panel=new j panel();
+random button
+new button (set random color)
+option button
+new  button (change color)
+public fun with graphics()
+color panel=new j panel();
 add(panel,center )
-jpanel button panel=
+button panel
 new j panel (flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener()
 override 
-public void actionperformed(actionevent e)
+public  actionperformed(actionevent e)
 random r= newrandom();
+<header.html>
+background functions 
+functions used in covid strings9 background
 colorpanel.setbackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen)),(rnextint(thirteen)),(rnextint(thirteen)),(rnextint(thirteen)),(rnextint(thirteen)),
 buttonpanel.add(optionbutton);
-optionbutton.add actionlistener(new action listener()
+optionbutton.add actionlistener(new action listener)
 override 
+<header.html>
+background code 
+code to program game background
 public actionperformed(actionevente)
-color m=jcolorchooser.showdialog(funwithgraphics.this,))
+color m=jcolorchooser.showdialog(funwithgraphics.this)
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel, borderlayout.south)
-public static void main(string [] args){
+public static  main(string [] args)
 jframe f = new covid strings nine()
 f.set title(covid strings nine)
-f.set default closeoperation(jframe.exit_on_close);
+f.set default closeoperation(exit_on_close);
 f.setsize
 f.set visible(true);
 <label id=lblScore>zero</label>
@@ -51,7 +75,7 @@ score+=twenty
 else:
 score-=twenty
 lblscore=document.getelementbyid(lblscore)
-lbl.score.innerHTML=score
+lbl.score.inner html=score
 public actionperformed(action event e) 
 system.out print.in (next button clicked)
 frame.add(next button);
