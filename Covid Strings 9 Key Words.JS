@@ -1,14 +1,38 @@
 doc.type.html
+html lang en
 script
+header=document create.element(header)
+header.style.BackgroundColor=#4CAF50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings9’
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go 
+heading1=keywords
+heading2=online references 
+heading3=script templates
 filename=covid strings 9 key words.js
+<header.html>
+keywords
+key search words for covid strings9
 covid strings 9 key word list=[fake cures late night tv,pfizer vaccine booster travis kelce,colloidal cannot kill werewolves,vaccines coming can help even more,regain sense of smelling,uv light cannot kill even if it kills covid,matters just as much,could become as easy as breathing in and out,effective treatments,better than saturn outlook,potential lockdowns coming,not one of them,crystals also not a cure,restrictions have been relaxed,ken paxton cannot change vaccines being highly effective,probably influenza,100-3,100-46, 46-33,]
 string=””
 for string in covid strings search word list
 select characters
 edit diffuse property
 desired color=green
+<header.html>
+online references 
+links to articles that correspond to phrases in covid strings9
 covid strings 9 reference list=[a:seth meyers flips biden gaffe into a brutal look at the trump archives |huffpost entertainment,b:martha stewart,a sword and a pineapple:her pfizer ad (beckershospitalreview.com),c:travis kelce partners with pfizer for covid,flu vaccine ad (usatoday.com),d:colloidal silver:uses,benefits,precautions,side effects (verywellhealth.com),e:potent antiviral effect of silver nanoparticles on sars-cov-2 -pmc (nih.gov),f:what happens when a werewolf is shot with a silver bullet? |ask mystic investigations,g: 2 niaid studies highlight covid-19 nasal vaccine potential |nih: national institute of allergy and infectious diseases,h:injection might help long covid patients smell normally again (msn.com),i:uva light reduced virus loads in covid-19 patients (cedars-sinai.org),j:vampires and uv light -factual questions -straight dope message board,nasal vaccines are here -the atlantic,k:nasal vaccines: whats the latest research on nasal vaccines for covid? (nbcnews.com),l:bush machinehead lyrics |genius lyrics,m:13 things to know about paxlovid,the latest covid-19 pill >news>yale medicine,n:rsv,covid-19,and flu outlook for 2023-2024 |johns hopkins |bloomberg school of public health (jhu.edu), 
 o:2009 saturn outlook reliability -consumer reports,p:ongoing trial shows pfizer covid-19 vaccine remains highly effective after six months |cnn,q:republicans warn lockdowns coming as china pneumonia spreads (msn.com),r:freedom over faucism:florida gov.ron desantis blasts the brandon administration and ignites the cpac crowd (bizpacreview.com),s:crystals and covid:science says popular rocks dont heal-the washington post,t:cdc lifts outdoor masking restrictions for fully vaccinated individuals,updates infection prevention and control recommendations for health care personnel |aha news, u:texas house of representatives votes to impeach attorney general ken paxton (msn.com),v:lawsuit alleges pfizer deceived and censored americans over covid vaccine (msn.com),w:china respiratory illness:u.s.health officials say cause is known (msn.com)x:doctor gives verdict on white lung syndrome as children are hit by illness in us (msn.com),y:scientists made a quantum object called an alice ring.what comes next is much weirder.(msn.com),z:what nato allies must do to prepare for russian aggression  politico,aa:how the west should prepare for a post-putin russia [commentary] (defensenews.com)]
+<header.html>
+script templates
+code for accessing the references
 asset=this app.assets.find()
 template asset resource 
 entity template instantiate
@@ -178,7 +202,7 @@ entity script foobar=this entity
 entity reparnet (this.entity)
 r=pc.create script(r);
 r.attributes.add(foobar,{type:entity});
-r.prototype.initialize=function() {
+r.prototype.initialize=function() 
 console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
