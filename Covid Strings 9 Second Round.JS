@@ -15,7 +15,7 @@ the heading numbers that determine where each heading and subheading go
 heading1=second round overview
 heading2=matchups
 heading3=second round
-heading4=Advancing rounds
+heading4=advancing rounds
 subheading1=team stealing
 subheading2=result for matchup1
 subheading3=result for matchup2
