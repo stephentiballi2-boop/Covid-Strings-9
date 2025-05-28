@@ -102,7 +102,7 @@ steal points(stealingteam,victimteam,pointstosteal)
 if(victimteam.points>=pointtosteal)
 victimteam.points-=pointtosteal;
 stealingteampoints+=pointstosteal
-console.log([stealingteam.name} Stole Points From {Victim Team Name}!)
+console.log([stealingteam.name} stole points from {victim team name}!)
 else:
 console.log({victimteam.name}doesnt have enough points to steal)
 if teams final answer==incorrect:
