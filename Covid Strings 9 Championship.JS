@@ -3,10 +3,10 @@ html lang en
 script
 header=document create.element(header)
 header.style.backgroundcolor=#4caf50
-header.style.Color=’White’
-header.style.Padding=’10Px’
-header.style.TextAlign=’Center’
-header.style.Text.FontSize=’24Px’
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
 header.textcontent=’welcome to covid strings9 championship round’
 document appendchild(header)
 <header.html>
