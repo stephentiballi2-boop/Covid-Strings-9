@@ -25,6 +25,9 @@ heading10=winner checker
 subheading1=polling problems
 subheading2=answer scanner
 filename=covid strings 9.js
+<header.html>
+game code overview
+an outline of the game code for covid strings9
 java.awt graphics
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
@@ -249,8 +252,12 @@ the feature within covid strings that allows for the player to know if their tea
 check winner:
 if winner==true:
 log(the winner is)
+else:
+remain
 if winner==false:
 log(no winner yet) 
+else:
+remain
 if users team wins covid strings9
 console log users team wins covid strings9 
 else
