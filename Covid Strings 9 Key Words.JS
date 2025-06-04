@@ -2,7 +2,7 @@ doc.type.html
 html lang en
 script
 header=document create.element(header)
-header.style.BackgroundColor=#4CAF50
+header.style.backgroundcolor=#4caf50
 header.style.color=’white’
 header.style.padding=’10px’
 header.style.textalign=’center’
@@ -20,8 +20,17 @@ filename=covid strings 9 key words.js
 keywords
 key search words for covid strings9
 covid strings 9 key word list=[fake cures late night tv,pfizer vaccine booster travis kelce,colloidal cannot kill werewolves,vaccines coming can help even more,regain sense of smelling,uv light cannot kill even if it kills covid,matters just as much,could become as easy as breathing in and out,effective treatments,better than saturn outlook,potential lockdowns coming,not one of them,crystals also not a cure,restrictions have been relaxed,ken paxton cannot change vaccines being highly effective,probably influenza,100-3,100-46, 46-33,]
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
-for string in covid strings search word list
+string manager concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings key word list
 select characters
 edit diffuse property
 desired color=green
@@ -184,7 +193,7 @@ entity script foobar=this entity
 entity reparnet (this.entity)
 q=pc.create script(q);
 q.attributes.add(foobar, {type:entity});
-q.prototype.Initialize =function() 
+q.prototype.initialize =function() 
 console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
