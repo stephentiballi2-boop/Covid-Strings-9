@@ -438,4 +438,9 @@ aa=pc.create script(aa);
 aa.attributes.add(foobar,{type:entity});
 aa.prototype.initialize=function() 
 console.log(this.foobar.name);
+asset=this app.assets.find()
+template asset resource 
+entity template instantiate
+entity script foobar=this entity
+entity reparnet (this.entity)
 return filename
